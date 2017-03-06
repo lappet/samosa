@@ -4,6 +4,7 @@ var longitude = null;
 if (location.protocol != 'https:')
 {
  location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+ console.log("Redirecting to https");
 }
 
 function callApi(searchTerm)

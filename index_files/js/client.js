@@ -5,7 +5,7 @@ var longitude = null;
 function callApi(searchTerm)
 {
   if (searchTerm == '' || searchTerm == undefined) {
-    searchTerm = 'Burrito';
+    searchTerm = 'Samosas';
   }
   $('#heading').text(searchTerm + ' near you');
   $('#responses').html('');
